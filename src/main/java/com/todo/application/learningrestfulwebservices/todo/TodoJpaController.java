@@ -18,7 +18,7 @@ import java.util.List;
 
 @RestController
 @CrossOrigin(origins = "http://localhost:4200")
-public class TodoJpaResource {
+public class TodoJpaController {
 
     @Autowired
     private TodoHardcodedService todoService;
